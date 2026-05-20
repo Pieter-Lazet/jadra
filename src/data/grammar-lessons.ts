@@ -68,9 +68,10 @@ export const GRAMMAR_LESSONS: GrammarLesson[] = [
       },
       {
         id: "g001e3",
-        type: "true_false",
-        question: "Kroatisch gebruikt het Cyrillische alfabet.",
-        correctAnswer: "false",
+        type: "multiple_choice",
+        question: "Welk alfabet gebruikt het Kroatisch?",
+        options: ["Cyrillisch", "Latijns", "Arabisch", "Grieks"],
+        correctAnswer: "Latijns",
         explanation: "Kroatisch gebruikt het Latijnse alfabet, niet Cyrillisch.",
       },
     ],

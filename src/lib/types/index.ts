@@ -87,7 +87,7 @@ export interface GrammarExample {
 
 export interface GrammarExercise {
   id: string;
-  type: "fill_blank" | "multiple_choice" | "true_false" | "translate";
+  type: "fill_blank" | "multiple_choice" | "translate";
   question: string;
   options?: string[];
   correctAnswer: string;
